@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 import { Rating } from '@material-tailwind/react';
 
 const PhoneCard = ({ phone }) => {
-	console.log(phone);
 	return (
 		<>
 			<div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -34,8 +33,8 @@ const PhoneCard = ({ phone }) => {
 							className="flex items-center justify-center gap-2 w-full  select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
 							type="button"
 						>
-							<Icon icon="mdi:favourite" />
-							Add as Favorite
+							{/* <Icon icon="mdi:favourite" /> */}
+							See Details
 						</button>
 					</Link>
 				</div>
